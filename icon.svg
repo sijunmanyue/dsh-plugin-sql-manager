@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SQL Manager">
+  <defs>
+    <linearGradient id="sqm-bg" x1="8" y1="5" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#143f5f"/>
+      <stop offset="1" stop-color="#0b2237"/>
+    </linearGradient>
+    <linearGradient id="sqm-cylinder" x1="17" y1="16" x2="43" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8fe7dc"/>
+      <stop offset="1" stop-color="#2fb7c8"/>
+    </linearGradient>
+    <linearGradient id="sqm-lens" x1="40" y1="34" x2="54" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d8f6ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="url(#sqm-bg)"/>
+  <ellipse cx="30" cy="18" rx="13" ry="5.2" fill="url(#sqm-cylinder)"/>
+  <path d="M17 18v12c0 2.9 5.8 5.2 13 5.2s13-2.3 13-5.2V18" fill="none" stroke="url(#sqm-cylinder)" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M17 30v9.5c0 2.9 5.8 5.2 13 5.2 2.9 0 5.6-.4 7.7-1.2" fill="none" stroke="#78ddd8" stroke-width="3.6" stroke-linecap="round" opacity=".9"/>
+  <circle cx="43.5" cy="41.5" r="8.7" fill="none" stroke="url(#sqm-lens)" stroke-width="3.8"/>
+  <path d="m49.8 48 6.2 6.2" fill="none" stroke="#ffffff" stroke-width="4.2" stroke-linecap="round"/>
+  <path d="M25.5 17.8h9M25.5 30h9" stroke="#0b2237" stroke-width="1.7" stroke-linecap="round" opacity=".45"/>
+  <path d="M40.8 41.5h5.4M43.5 38.8v5.4" stroke="#143f5f" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

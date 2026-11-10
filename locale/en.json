@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "SQL Manager",
+    "description": "Keep reusable SQL per system. Every system maintains its own required JSON storage path, with search over notes, table names, and field names."
+  }
+}

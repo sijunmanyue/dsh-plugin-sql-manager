@@ -1,0 +1,49 @@
+{
+  "name": "@local/sql-manager",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Maintain reusable SQL per system, each with its own required JSON path; search by remark, table, or field.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "sql-store.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "sql",
+    "snippet-manager",
+    "json"
+  ],
+  "author": "JUN MA",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sijunmanyue/dsh-plugin-sql-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sijunmanyue/dsh-plugin-sql-manager/issues"
+  },
+  "homepage": "https://github.com/sijunmanyue/dsh-plugin-sql-manager#readme"
+}
